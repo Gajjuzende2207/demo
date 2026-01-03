@@ -35,6 +35,6 @@ steps:
     azureSubscription: 'Azure subscription 1(21fc689d-39f3-4f60-9970-8e763bd869fa)'
     appType: 'webAppLinux'
     appName: 'pratik'
-    package: '$(Build.ArtifactStagingDirectory/**/*.war'
+    package: '$(System.DefaultWorkingDirectory)/**/*.war'
     runtimeStack: 'JAVA|8-jre8'
     
